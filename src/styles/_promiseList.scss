@@ -1,0 +1,26 @@
+.promiseList {
+  border-radius: 4px;
+  background-color: rgba(17, 17, 85, 0.486);
+  height: 60%;
+  width: 500px;
+  color: white;
+  overflow-y: scroll;
+  display: block;
+  list-style: none;
+  box-shadow: -10px 10px 5px rgba(36, 36, 36, 0.527);
+}
+.promiseList::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.promiseList::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(109, 115, 141);
+  border-radius: 10px;
+}
+
+/* Handle */
+.promiseList::-webkit-scrollbar-thumb {
+  background: rgba(16, 37, 43, 0.952);
+  border-radius: 10px;
+}
